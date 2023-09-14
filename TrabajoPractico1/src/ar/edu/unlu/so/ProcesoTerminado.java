@@ -1,33 +1,30 @@
 package ar.edu.unlu.so;
 
-public class ProcesoTerminado {
-    private Integer process_id;
-    private Integer tiempo_requerido;
+public class ProcesoTerminado{
+    private int process_id;
+    private int tiempo_inicial;
     private double estado_Reloj;
 
-    public ProcesoTerminado() {
-    }
-
-    public ProcesoTerminado(Integer process_id, Integer tiempo_requerido, double estado_Reloj) {
-        this.process_id = process_id;
-        this.tiempo_requerido = tiempo_requerido;
+    public ProcesoTerminado(int id, int tiempo_inicial, double estado_Reloj) {
+        this.process_id = id;
+        this.tiempo_inicial = tiempo_inicial;
         this.estado_Reloj = estado_Reloj;
     }
 
-    public Integer getProcess_id() {
+    public int getProcess_id() {
         return process_id;
     }
 
-    public void setProcess_id(Integer process_id) {
+    public void setProcess_id(int process_id) {
         this.process_id = process_id;
     }
 
-    public Integer getTiempo_requerido() {
-        return tiempo_requerido;
+    public int getTiempo_inicial() {
+        return tiempo_inicial;
     }
 
-    public void setTiempo_requerido(Integer tiempo_requerido) {
-        this.tiempo_requerido = tiempo_requerido;
+    public void setTiempo_inicial(int tiempo_inicial) {
+        this.tiempo_inicial = tiempo_inicial;
     }
 
     public double getEstado_Reloj() {
