@@ -23,12 +23,12 @@ public class Main {
         Proceso P8 = new Proceso(8);
         procesos.add(P1);
         procesos.add(P2);
-        /*procesos.add(P3);
+        procesos.add(P3);
         procesos.add(P4);
         procesos.add(P5);
         procesos.add(P6);
         procesos.add(P7);
-        procesos.add(P8);*/
+        procesos.add(P8);
 
         Proceso procAnt = null;
 
